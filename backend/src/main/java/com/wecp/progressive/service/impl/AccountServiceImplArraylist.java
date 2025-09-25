@@ -12,8 +12,11 @@ public class AccountServiceImplArraylist implements AccountService{
 
 private static List<Accounts> accountsList = new ArrayList<>();
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252
 @Override
 public int addAccount(Accounts accounts) throws SQLException {
     // TODO Auto-generated method stub

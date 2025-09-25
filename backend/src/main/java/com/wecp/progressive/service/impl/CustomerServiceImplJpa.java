@@ -1,5 +1,6 @@
 package com.wecp.progressive.service.impl;
 
+<<<<<<< HEAD
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
@@ -54,3 +55,8 @@ public class CustomerServiceImplJpa implements CustomerService {
         return customer.orElse(null);
     }
 }
+=======
+public class CustomerServiceImplJpa {
+    
+}
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252

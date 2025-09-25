@@ -1,5 +1,6 @@
 package com.wecp.progressive.entity;
 
+<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,6 +13,9 @@ public class Customers implements Comparable<Customers>{
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+=======
+public class Customers implements Comparable<Customers>{
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252
     private int customerId;
     private String name;
     private String email;
@@ -27,6 +31,7 @@ public class Customers implements Comparable<Customers>{
         this.username = username;
         this.password = password;
     }
+<<<<<<< HEAD
     
     public int getCustomerId() {
         return customerId;
@@ -39,6 +44,11 @@ public class Customers implements Comparable<Customers>{
         this.role = role;
     }
 
+=======
+    public int getCustomerId() {
+        return customerId;
+    }
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252
     public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }

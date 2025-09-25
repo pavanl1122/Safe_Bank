@@ -1,5 +1,6 @@
 package com.wecp.progressive.entity;
 
+<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -7,6 +8,9 @@ import javax.persistence.Id;
 public class Accounts implements Comparable<Accounts>{
     @Id
     
+=======
+public class Accounts implements Comparable<Accounts>{
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252
     private int accountId;
     private int customerId;
     private double balance;

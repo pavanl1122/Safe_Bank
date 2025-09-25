@@ -1,5 +1,6 @@
 package com.wecp.progressive.service.impl;
 
+<<<<<<< HEAD
 import java.sql.SQLException;
 import java.util.Comparator;
 import java.util.List;
@@ -58,3 +59,9 @@ public class AccountServiceImplJpa implements AccountService {
 
    
 }
+=======
+
+public class AccountServiceImplJpa {
+    
+}
+>>>>>>> 75df51bc61bba2d874956097baa3415a2f066252
