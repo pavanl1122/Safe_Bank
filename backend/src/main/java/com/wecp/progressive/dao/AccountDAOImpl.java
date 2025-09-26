@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> a6db26c2bafe6b79327632db79438ca36cd2e321
 package com.wecp.progressive.dao;
 
 import java.sql.Connection;
@@ -107,6 +110,7 @@ public class AccountDAOImpl implements AccountDAO{
         }
         
     }
+<<<<<<< HEAD
     public List<Accounts> getAllAccountsByCustomer(int customer_id) throws SQLException {
         List<Accounts> ls = new ArrayList<>();
         String query = "select * from accounts where customer_id = ?";
@@ -209,3 +213,7 @@ private AccountRepository accountRepository;
     
     
 }  */
+=======
+    
+}
+>>>>>>> a6db26c2bafe6b79327632db79438ca36cd2e321

@@ -42,14 +42,22 @@ public class AccountController {
     @PostMapping
     public ResponseEntity<Integer> addAccount(@RequestBody Accounts accounts) throws SQLException {
         return new ResponseEntity<>(accountServiceImplJpa.addAccount(accounts), HttpStatus.CREATED);
+<<<<<<< HEAD
         //return -1;
+=======
+>>>>>>> a6db26c2bafe6b79327632db79438ca36cd2e321
     }
 
     @PutMapping("/{accountId}")
     @ResponseStatus(HttpStatus.OK)
     public void updateAccount(@PathVariable int accountId, @RequestBody Accounts accounts) throws SQLException {
+<<<<<<< HEAD
        // accounts.setAccountId(accountId);
         //accountServiceImplJpa.updateAccount(accounts);
+=======
+        accounts.setAccountId(accountId);
+        accountServiceImplJpa.updateAccount(accounts);
+>>>>>>> a6db26c2bafe6b79327632db79438ca36cd2e321
     }
 
     @DeleteMapping("/{accountId}")
